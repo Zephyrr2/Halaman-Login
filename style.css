@@ -1,0 +1,78 @@
+body {
+  background-color: #e6f7ec;
+  background-image: url(Asset/background.jpeg);
+  background-size: cover;
+}
+
+.tabel1 {
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border: 2px solid #2e8b57;
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+td {
+    padding: 8px 20px;
+    text-align: center;
+}
+
+.trhead{
+    text-align: center;
+    color: black;
+    background-color: #2e8b57;
+}
+
+.tdimage{
+    text-align: center;
+}
+
+.tabel1:hover{
+    background-color: #f0f8f5;
+}
+
+.tabel1 tr:nth-child(even){
+    background-color: #c1e6d1;
+}
+
+.trtwo{
+    color: #2e8b57;
+}
+
+form{
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(46, 139, 87, 0.1);
+    width: 300px;
+    margin: 150px auto; 
+}
+
+.form_login {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #2e8b57;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.tombol_login {
+    width: 100%;
+    padding: 10px;
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button {
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px black;
+    background-color: #ffffff;
+    padding: 10px;
+}
